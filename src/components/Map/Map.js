@@ -1,7 +1,7 @@
 import React from "react"
-import { ComposableMap, Geographies, Geography, Marker, Annotation, ZoomableGroup } from "react-simple-maps"
+import { ComposableMap, Geographies, Geography, ZoomableGroup } from "react-simple-maps"
 import { Tooltip } from 'react-tooltip'
-import { Text, Tooltip as ChakraTooltip } from "@chakra-ui/react"
+import { Tooltip as ChakraTooltip } from "@chakra-ui/react"
 import InformationModal from "./InformationModal"
 import './Map.css'
 
@@ -19,17 +19,22 @@ export default function Map() {
     setIsOpen(true)
   }
   
+  const mapWidth = 625;
+  const mapHeight = 600;
   <Tooltip>{content}</Tooltip>
   return (
     <div className='map-container'>
+      <div className='map'>
       <ComposableMap
+        width={mapWidth}
+        height={mapHeight}
         projection="geoMercator"
         projectionConfig={{
-          center: [0, 0],
+          center: [0.75, 0],
           scale: 100,
         }}
       >
-      <ZoomableGroup zoom = {1} center={[0, 0]} translateExtent={[[, ], [, ]]}	>
+      <ZoomableGroup zoom = {1} center={[0, 0]} translateExtent={[[0, 0],[mapWidth, mapHeight]]}	>
         <Geographies geography = "/countries-110m.json" cursor='pointer' >
           {({ geographies }) =>
             geographies.map((geo,idx) => {
@@ -76,6 +81,7 @@ export default function Map() {
       </ZoomableGroup>
     </ComposableMap>
     <InformationModal isOpen={isOpen} handleClose={() => setIsOpen(false)} country={name}/>
+    </div>
   </div>
     
   )

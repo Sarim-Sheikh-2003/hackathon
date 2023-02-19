@@ -1,0 +1,16 @@
+.search-container{
+    width:100%;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+}
+
+.search-bar{
+    text-align:center;
+    border:1px solid grey;
+}
+
+.search-suggestion{
+    cursor:pointer; 
+}

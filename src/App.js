@@ -1,14 +1,17 @@
 import React from 'react'
-import ApiData from './components/ApiData'
-import Header from './components/Header';
-import Map from './components/Map';
-import AfterMap from './components/AfterMap';
+import Header from './components/Header/Header';
+import Map from './components/Map/Map';
+import AfterMap from './components/Resources/AfterMap';
+import Chart from './components/Chart/ChartComponent';
+import Searchbar from './components/Chart/Searchbar';
 
 function App() {
   return (
     <>
       <Header/>
       <Map/>
+      <Chart/>
+      <Searchbar/>
       <AfterMap/>
     </>
   );
