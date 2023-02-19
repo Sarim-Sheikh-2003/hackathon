@@ -1,6 +1,11 @@
 .map-container {
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border:1px solid grey;
     position:relative;
+    width: 75%;
 }
 
 .tooltip{

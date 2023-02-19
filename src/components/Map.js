@@ -25,17 +25,17 @@ export default function Map() {
       <ComposableMap
         projection="geoMercator"
         projectionConfig={{
-          center: [3, 50],
+          center: [0, 0],
           scale: 100,
         }}
       >
-      <ZoomableGroup zoom = {1} maxZoom = {2}>
+      <ZoomableGroup zoom = {1} center={[0, 0]} translateExtent={[[, ], [, ]]}	>
         <Geographies geography = "/countries-110m.json" cursor='pointer' >
           {({ geographies }) =>
-            geographies.map((geo) => {
+            geographies.map((geo,idx) => {
 
               return (
-              <ChakraTooltip label={geo.properties.name}>
+              <ChakraTooltip label={geo.properties.name} key={idx}>
               <Geography 
               key = {geo.rsmKey} 
               geography = {geo}

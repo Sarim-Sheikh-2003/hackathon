@@ -15,34 +15,29 @@ import {
   Text,
 } from '@chakra-ui/react'
 
+import formattedData from './Data'
+
 export default function InformationModal({ isOpen, country, handleClose }) {
+  const [data,setData] = React.useState(formattedData)
+
+
+  React.useEffect(()=>{
+    const countryData = data.find(obj => obj.Name === country)
+    console.log(countryData)
+  },[isOpen])
+  
+
   return (
     <>
       <Modal isOpen={isOpen} onClose={handleClose} size='lg'>
         <ModalOverlay>
-          <ModalContent maxW='56rem'>
+          <ModalContent >
             <ModalHeader display='flex' flexDirection='column' fontSize={15} padding={3}>{country}</ModalHeader>
             <Box pl={3} pr={3}>
               <Divider />
               <ModalCloseButton />
               <ModalBody display='flex' flexDirection='column' padding='10px 10px'>
-                <Text fontWeight={600} fontSize={15}>{country}</Text>
-                <Text fontSize={11} color='gray.500'>
-                  aaaa
-                </Text>
-                <Text fontSize='9pt' color='red' pt={1}>hi</Text>
-                <Box mt={4} mb={4}>
-                  <Text fontWeight={600} fontSize={15}>aaa</Text>
-                  <Stack spacing={2}>
-                    <Flex align='center'>
-                      <Text fontSize='10pt' mr={1}>Public</Text>
-                      <Text fontSize='8pt' color='gray.500' >aaaa</Text>
-                    </Flex>
-                  </Stack>
-                </Box>
-
-
-
+                
               </ModalBody>
             </Box>
 

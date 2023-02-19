@@ -16,8 +16,8 @@ export default function AfterMap() {
     <>
     <div className='filter-container'>
         <p className='filter-title'>Filter by category:</p>
-        <div classname='selected-category'>{`Selected Category: ${selectedCategory}`}</div>
-        <button 
+        <div className='selected-category'>{`Selected Category: ${selectedCategory}`}</div>
+        <button
             type="button" 
             className='filter-button'
             onClick={() => handleButtonClicked('Water')}

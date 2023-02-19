@@ -8,7 +8,6 @@ function App() {
   return (
     <>
       <Header/>
-      <ApiData/>
       <Map/>
       <AfterMap/>
     </>

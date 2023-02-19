@@ -3,8 +3,11 @@ import './Header.css'
 export default function Header() {
   return (
     <div>
-        <h1 className="title"> Sarim D. Lovejivan Sidhu </h1> 
-        <p className = "description"> Insert: Short description of website purpose, how to use map, data sets used</p> 
+        <h1 className="title"> The Basic Needs Atlas: A World Map of Access to Essentials </h1> 
+        <p className = "description"> Welcome to The Basic Needs Atlas! The purpose of this website is to spread 
+        awareness about the pressing resource crisis that many contries around the world face. Check out the map below and click on a country
+        to get information about the percent of its population that has access to food, water, education, and education, as well as the percent of 
+        its population that is facing poverty.</p> 
     </div>
   )
 }
