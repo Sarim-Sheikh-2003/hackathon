@@ -107,7 +107,7 @@ export default function InformationModal({ isOpen, country, handleClose }) {
             </Box>
 
             <ModalFooter bg='white' borderRadius='0px 0px 10px 10px'>
-              <Text fontFamily='Rubik' fontSize="10px" textAlign={'center'}>Credit to World Bank</Text>
+              <Text fontFamily='Rubik' fontSize="10px" textAlign={'center'}><a href="https://www.worldbank.org/en/home" target="_blank">Credit to World Bank</a></Text>
             </ModalFooter>
           </ModalContent>
         </ModalOverlay>

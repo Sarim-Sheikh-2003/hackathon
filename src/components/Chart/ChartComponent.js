@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 import BarChart from "./BarChart"
 import Searchbar from './Searchbar';
-import { UserData } from "./Test"
 import './ChartComponent.css'
 import formattedData from '../Data';
 
@@ -12,19 +11,23 @@ export default function ChartComponent() {
   const [secondCountry,setSecondCountry] = React.useState()
   const [userData,setUserData] = React.useState({labels:[],datasets:[]})
 
-  const userLabels = formattedData
-    .filter(item => item.Name === firstCountry || item.Name === secondCountry)
-    .map(item => item.Name)
-
-  const firstIndex = formattedData.findIndex(item => item.Name === userLabels[0])
-  const secondIndex = formattedData.findIndex(item => item.Name === userLabels[1])
-  console.log(firstIndex,secondIndex)
-  const firstData = formattedData[firstIndex]
-  const secondData = formattedData[secondIndex]
-  console.log(firstData,secondData)
-
     React.useEffect(() => {
-      if (!firstData || !secondData) return
+      if (!firstCountry || !secondCountry) return
+      let userLabels = formattedData
+        .filter(item => item.Name === firstCountry)
+        .map(item => item.Name)
+
+      let item2 = formattedData
+      .filter(item => item.Name === secondCountry)
+      .map(item => item.Name)
+
+      userLabels = [...userLabels,...item2]
+      console.log('labels0',userLabels[0])
+      console.log('labels1',userLabels[1])
+      const firstIndex = formattedData.findIndex(item => item.Name === userLabels[0])
+      const secondIndex = formattedData.findIndex(item => item.Name === userLabels[1])
+      const firstData = formattedData[firstIndex]
+      const secondData = formattedData[secondIndex]
       setUserData({
         labels: [`Food Insecurity - ${firstCountry}`,`Food Insecurity - ${secondCountry}`,
         `Water Access - ${firstCountry}`,`Water Access - ${secondCountry}`,
@@ -57,9 +60,10 @@ export default function ChartComponent() {
     
     return (
       <>
+        <div className='chart-search-container1'>Chart Comparisons</div>
       <div className='chart-search-container'>
-        <Searchbar country={firstCountry} setCountry={setFirstCountry}/>
-        <Searchbar country={secondCountry} setCountry={setSecondCountry}/>
+      <Searchbar country={firstCountry} setCountry={setFirstCountry}/>
+      <Searchbar country={secondCountry} setCountry={setSecondCountry}/>
       </div>
       
         <div className="chart">

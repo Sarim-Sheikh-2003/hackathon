@@ -145,6 +145,19 @@ const formattedData = [
         ElectricityYear: 'Data Not Available',
     },
     {
+        Name: 'W. Sahara',
+        Water: 'Data Not Available',
+        Food: 'Data Not Available',
+        Poverty: 'Data Not Available',
+        Education: 'Data Not Available',
+        Electricity: 'Data Not Available',
+        WaterYear: 'Data Not Available',
+        FoodYear: 'Data Not Available',
+        PovertyYear: 'Data Not Available',
+        EducationYear: 'Data Not Available',
+        ElectricityYear: 'Data Not Available',
+    },
+    {
         Name: 'Antigua and Barbuda',
         Water: 'Data Not Available',
         Food: '7.1',
@@ -548,7 +561,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'Central African Republic',
+        Name: 'Central African Rep.',
         Water: '6.183318229',
         Food: '61.8',
         Poverty: 'Data Not Available',
@@ -847,7 +860,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'Equatorial Guinea',
+        Name: 'Eq. Guinea',
         Water: 'Data Not Available',
         Food: 'Data Not Available',
         Poverty: 'Data Not Available',
@@ -1120,7 +1133,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'Eq. Guinea',
+        Name: 'Guinea',
         Water: 'Data Not Available',
         Food: '48.9',
         Poverty: 'Data Not Available',
@@ -1445,7 +1458,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'Kyrgyz Republic',
+        Name: 'Kyrgyzstan',
         Water: '70.08973028',
         Food: '1',
         Poverty: 'Data Not Available',
@@ -2342,7 +2355,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'South Sudan',
+        Name: 'S. Sudan',
         Water: 'Data Not Available',
         Food: '62.3',
         Poverty: 'Data Not Available',

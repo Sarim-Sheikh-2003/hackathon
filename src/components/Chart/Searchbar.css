@@ -4,13 +4,16 @@
      flex-direction:column;
      justify-content:center;
      align-items:center;
+     background-color: aliceblue;
 }
 
 .search-bar{
     text-align:center;
-    border:1px solid grey;
+    background-color: aliceblue;
+    border: 4px solid black;
 }
 
 .search-suggestion{
     cursor:pointer; 
+    font-size: 15px;
 }
