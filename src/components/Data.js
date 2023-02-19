@@ -5,12 +5,12 @@ const formattedData = [
         Name: 'Afghanistan',
         Water: '27.58895624',
         Food: '22.5',
-        Poverty: 'Data Not Available',
+        Poverty: '49.4',
         Education: '53.75999832',
         Electricity: '97.69999695',
         WaterYear: '2020',
         FoodYear: '2020',
-        PovertyYear: '2019',
+        PovertyYear: '2020',
         EducationYear: '2020',
         ElectricityYear: '2020'
     },
@@ -19,12 +19,12 @@ const formattedData = [
         Water: '70.67453739',
         Food: '7.7',
         Poverty: '46.2',
-        Education: 'Data Not Available',
+        Education: '25.82',
         Electricity: '100',
         WaterYear: '2020',
         FoodYear: '2020',
         PovertyYear: '2019',
-        EducationYear: '2020',
+        EducationYear: '2019',
         ElectricityYear: '2020'
     },
     {
@@ -32,12 +32,12 @@ const formattedData = [
         Water: '72.3814561',
         Food: '6.2',
         Poverty: 'Data Not Available',
-        Education: 'Data Not Available',
+        Education: '20.95',
         Electricity: '99.80413055',
         WaterYear: '2020',
         FoodYear: '2020',
         PovertyYear: '2019',
-        EducationYear: '2020',
+        EducationYear: '2017',
         ElectricityYear: '2020'
     },
     {
@@ -187,12 +187,12 @@ const formattedData = [
         Name: 'Armenia',
         Water: '86.91066001',
         Food: '1',
-        Poverty: 'Data Not Available',
+        Poverty: '19.1',
         Education: '26.07999992',
         Electricity: '100',
         WaterYear: '2020',
         FoodYear: '2020',
-        PovertyYear: '2019',
+        PovertyYear: '2020',
         EducationYear: '2020',
         ElectricityYear: '2020'
     },
@@ -1501,12 +1501,12 @@ const formattedData = [
         Water: '47.7',
         Food: '10.2',
         Poverty: 'Data Not Available',
-        Education: 'Data Not Available',
+        Education: '23.5200004577637',
         Electricity: '100',
         WaterYear: '2020',
         FoodYear: '2020',
         PovertyYear: '2019',
-        EducationYear: '2020',
+        EducationYear: '2019',
         ElectricityYear: '2020'
     },
     {
@@ -1981,13 +1981,13 @@ const formattedData = [
         Name: 'Pakistan',
         Water: '35.83886904',
         Food: '8.7',
-        Poverty: 'Data Not Available',
-        Education: 'Data Not Available',
+        Poverty: '38.8',
+        Education: '34.560001373291',
         Electricity: '75.37969208',
         WaterYear: '2020',
         FoodYear: '2020',
-        PovertyYear: '2019',
-        EducationYear: '2020',
+        PovertyYear: '2014',
+        EducationYear: '2021',
         ElectricityYear: '2020'
     },
     {
@@ -2498,7 +2498,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'Syrian Arab Republic',
+        Name: 'Syria',
         Water: 'Data Not Available',
         Food: 'Data Not Available',
         Poverty: 'Data Not Available',
@@ -2615,7 +2615,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'Turkiye',
+        Name: 'Turkey',
         Water: 'Data Not Available',
         Food: 'Data Not Available',
         Poverty: '39.8',
@@ -2862,7 +2862,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'World',
+        Name: 'World Average',
         Water: '74.2660341703122',
         Food: '10.5',
         Poverty: 'Data Not Available',

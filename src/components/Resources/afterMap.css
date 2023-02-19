@@ -1,13 +1,12 @@
-
-
 .resource-title{
-    text-align: center;
     margin: 0px;
     text-align: center;
     font-size: 30px;
     font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column; 
     background: #2ECFBF;
-    background: repeating-radial-gradient(circle farthest-corner at center center, #2ECFBF 50%, #2ECFBF 50%, #AECF55 100%, );
+    background: repeating-radial-gradient(circle farthest-corner at center center, #2ECFBF 25%, #AECF55 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -20,16 +19,30 @@
     text-align: center;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
-    background-color: aliceblue;
+    padding-top:30px;
 }
 .resource-container {
-    display:flex;
-    align-items:center;
+    display:grid;
+    grid-template-rows: repeat(1,250px);
+    grid-template-columns: repeat(3,1fr);
+    flex-direction: column;
+    align-items:flex-start;
     width:100%;
-    height:100%;
     justify-content:space-between;
     text-align: center;
-    background-color: aliceblue;
+    padding-right:10px;
+}
+
+.resource-container2 {
+    display:grid;
+    grid-template-rows: repeat(1,250px);
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+    align-items:flex-start;
+    width:100%;
+    justify-content:space-between;
+    text-align: center;
+    padding-right:20px;
 }
 
 .selected-category {
@@ -37,11 +50,42 @@
     background-color: aliceblue;
 }
 
-.all-resources {
+
+.all-resources{
+    text-decoration: underline;
     text-align: center;
     margin: 0px;
     text-align: center;
-    font-size: 10x;
+    font-size: 15px;
     font-family: 'Rubik', sans-serif;
+    background: #2ECFBF;
+    background: repeating-radial-gradient(circle farthest-corner at center center, #2ECFBF 50%, #2ECFBF 50%, #AECF55 100%, );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor:pointer;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-top: 1px solid rgb(206, 216, 226);
     background-color: aliceblue;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer-link{
+    cursor:pointer;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    background: #2ECFBF;
+    background: repeating-radial-gradient(circle farthest-corner at center center, #2ECFBF 50%, #2ECFBF 50%, #AECF55 100%, );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.link:hover{
+    text-decoration: underline;
 }

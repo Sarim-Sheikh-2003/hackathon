@@ -21,7 +21,7 @@ export default function ResourcesModal({ isOpen, country, handleClose }) {
 
     return (
         <>
-            <Modal isOpen={isOpen} onClose={handleClose} size='4xl' >
+            <Modal isOpen={isOpen} onClose={handleClose} size='2xl'>
                 <ModalOverlay>
                     <ModalContent >
                         <ModalHeader
@@ -38,26 +38,28 @@ export default function ResourcesModal({ isOpen, country, handleClose }) {
                         <Box pl={3} pr={3}>
                             <Divider />
                             <ModalCloseButton />
-                            <ModalBody width='100%' height='300px' pl={0} pr={0}>
+                            <ModalBody width='100%' height='100%' pl={0} pr={0} pb={0}>
                                 <div className='resource-container'>
                                     <div>
-                                        <div className='resource-subtitle'>Poverty</div>
+                                        <div className='resource-subtitle'>Poverty:</div>
+                                            <div className='link'>
                                         <a href='https://www.un.org/en/global-issues/ending-poverty' target="_blank" className="all-resources">UN - Ending Poverty </a>
+                                            </div>
                                         <div>
                                             <a href='https://sdgs.un.org/topics/poverty-eradication' target="_blank" className="all-resources">Poverty Eradication</a>
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className='resource-subtitle'>Education</div>
+                                        <div className='resource-subtitle'>Education:</div>
                                         <a href='https://www.worldbank.org/en/topic/education/overview' target="_blank" className="all-resources">World Bank - Education </a>
-                                        <div>
+                                        <div className='link'>
                                             <a href='https://www.unicef.org/education' target="_blank" className="all-resources">Unicef - Education</a>
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className='resource-subtitle'>Food Shortage</div>
+                                        <div className='resource-subtitle'>Food Shortage:</div>
                                         <a href='https://www.worldbank.org/en/topic/agriculture/brief/food-security-update' target="_blank" className="all-resources">World Bank Food Security Update </a>
                                         <div>
                                             <a href='https://foodbankscanada.ca/' target="_blank" className="all-resources">Food Banks Canada</a>
@@ -67,10 +69,10 @@ export default function ResourcesModal({ isOpen, country, handleClose }) {
                                             <a href='https://nationaltoday.com/world-hunger-day/' target="_blank" className="all-resources">World Hunger Day</a>
                                         </div>
                                     </div>
-
-
+                                </div>
+                                <div className='resource-container2'>
                                     <div>
-                                        <div className='resource-subtitle'>Water Shortage</div>
+                                        <div className='resource-subtitle'>Water Shortage:</div>
                                         <a href='https://www.unwater.org/water-facts/water-scarcity' target="_blank" className="all-resources">UN - Water Scarcity </a>
                                         <div>
                                             <a href='https://www.international.gc.ca/world-monde/issues_development-enjeux_developpement/environmental_protection-protection_environnement/water-eau.aspx?lang=eng' target="_blank" className="all-resources">Water in developing countries</a>
@@ -81,7 +83,7 @@ export default function ResourcesModal({ isOpen, country, handleClose }) {
                                     </div>
 
                                     <div>
-                                        <div className='resource-subtitle'>Electricity</div>
+                                        <div className='resource-subtitle'>Electricity:</div>
                                         <a href='https://www.worldbank.org/en/news/video/2020/09/22/electricity-availability-and-economic-activity-lessons-from-developing-countries#:~:text=Electricity%20Availability%20and%20Economic%20Activity%3A%20Lessons%20from%20Developing,the%20power%20supply%20is%20limited%20and%20highly%20unreliable' target="_blank" className="all-resources">Worldbank - Electricity Availability</a>
                                         <div>
                                             <a href='https://ourworldindata.org/energy-access' target="_blank" className="all-resources">Energy Access</a>
@@ -96,8 +98,8 @@ export default function ResourcesModal({ isOpen, country, handleClose }) {
                                 </div>
                             </ModalBody>
                         </Box>
-                        <ModalFooter bg='white' borderRadius='0px 0px 10px 10px'>
-                            <Text fontFamily='Rubik' fontSize="10px" textAlign={'center'}><a href="https://www.worldbank.org/en/home" target="_blank">Credit to World Bank</a></Text>
+                        <ModalFooter bg='white' borderRadius='0px 0px 10px 10px' >
+                            <Text fontFamily='Rubik' fontSize="15px" textAlign={'center'}><a href="https://www.worldbank.org/en/home" target="_blank">Credit to World Bank</a></Text>
                         </ModalFooter>
                     </ModalContent>
                 </ModalOverlay>

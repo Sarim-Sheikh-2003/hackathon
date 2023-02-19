@@ -61,10 +61,11 @@ export default function ChartComponent() {
     return (
       <>
         <div className='chart-search-container1'>Chart Comparisons</div>
-      <div className='chart-search-container'>
-      <Searchbar country={firstCountry} setCountry={setFirstCountry}/>
-      <Searchbar country={secondCountry} setCountry={setSecondCountry}/>
-      </div>
+          <div className='chart-search-container'>
+            <Searchbar country={firstCountry} setCountry={setFirstCountry}/>
+            <Searchbar country={secondCountry} setCountry={setSecondCountry}/>
+          </div>
+        
       
         <div className="chart">
             <div className='chart-inner'>

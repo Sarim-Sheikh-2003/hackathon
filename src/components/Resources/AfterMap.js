@@ -8,11 +8,13 @@ export default function AfterMap() {
 
   return (
     <>
-      <a cursor='pointer' onClick={() => setIsOpen(true)}>Want to help or something or click on this or something</a>
-      <ResourcesModal isOpen={isOpen} handleClose={() => setIsOpen(false)}/>
-  
+      <div className='footer'>
+        <p>
+          After reviewing the information presented, if you are interested in extending assistance to these countries in need, click
+          <a className='footer-link' onClick={() => setIsOpen(true)}> here.</a>
+          <ResourcesModal isOpen={isOpen} handleClose={() => setIsOpen(false)}/>
+        </p>
+      </div>
     </>
-    
-
   )
 }
