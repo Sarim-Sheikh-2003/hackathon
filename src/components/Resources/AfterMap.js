@@ -3,7 +3,6 @@ import './afterMap.css'
 import ResourcesModal from './ResourcesModal'
 
 export default function AfterMap() {
-  const [selectedCategory, setSelectedCategory] = React.useState('')
   const [isOpen,setIsOpen] = React.useState(false)
 
   return (

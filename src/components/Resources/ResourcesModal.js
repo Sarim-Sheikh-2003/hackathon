@@ -1,15 +1,12 @@
 import React from 'react'
 import {
     Modal,
-    Flex,
-    Stack,
     ModalOverlay,
     ModalContent,
     ModalHeader,
     ModalFooter,
     ModalBody,
     ModalCloseButton,
-    Button,
     Box,
     Divider,
     Text,
