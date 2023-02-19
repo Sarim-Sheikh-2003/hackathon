@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './components/Header/Header';
 import Map from './components/Map/Map';
 import AfterMap from './components/Resources/AfterMap';
-import Chart from './components/Chart/ChartComponent';
+import ChartComponent from './components/Chart/ChartComponent';
 import Searchbar from './components/Chart/Searchbar';
 
 function App() {
@@ -10,8 +10,7 @@ function App() {
     <>
       <Header/>
       <Map/>
-      <Chart/>
-      <Searchbar/>
+      <ChartComponent/>
       <AfterMap/>
     </>
   );

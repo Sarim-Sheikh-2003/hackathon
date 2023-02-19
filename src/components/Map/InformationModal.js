@@ -52,7 +52,7 @@ export default function InformationModal({ isOpen, country, handleClose }) {
                 (
                 <Flex marginTop={3} marginBottom={15} fontSize="15px" fontFamily='Rubik'>
                   <Text>
-                    {`Percent of Population with Access to Food: 
+                    {`Percent of Population without Access to Food: 
                     ${countryData.Food === 'Data Not Available' ? 'Data Not Available' : Math.round(countryData.Food)}`}
                   </Text>
                   <Text mr={2}>{countryData.Food === 'Data Not Available' ? '' : '%'}</Text>
@@ -85,7 +85,7 @@ export default function InformationModal({ isOpen, country, handleClose }) {
                 (
                 <Flex marginBottom={15} fontSize="15px" fontFamily='Rubik'>
                   <Text>
-                    {`Percent of Population with Access to Education: 
+                    {`Percent of Population without Access to Education: 
                     ${countryData.Education === 'Data Not Available' ? 'Data Not Available' : Math.round(countryData.Education)}`}
                   </Text>
                   <Text mr={2}>{countryData.Education === 'Data Not Available' ? '' : '%'}</Text>

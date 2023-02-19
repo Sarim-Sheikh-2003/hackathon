@@ -93,6 +93,58 @@ const formattedData = [
         ElectricityYear: 'Data Not Available',
     },
     {
+        Name: 'Fr. S. Antarctic Lands',
+        Water: 'Data Not Available',
+        Food: 'Data Not Available',
+        Poverty: 'Data Not Available',
+        Education: 'Data Not Available',
+        Electricity: 'Data Not Available',
+        WaterYear: 'Data Not Available',
+        FoodYear: 'Data Not Available',
+        PovertyYear: 'Data Not Available',
+        EducationYear: 'Data Not Available',
+        ElectricityYear: 'Data Not Available',
+    },
+    {
+        Name: 'Falkland Is.',
+        Water: 'Data Not Available',
+        Food: 'Data Not Available',
+        Poverty: 'Data Not Available',
+        Education: 'Data Not Available',
+        Electricity: 'Data Not Available',
+        WaterYear: 'Data Not Available',
+        FoodYear: 'Data Not Available',
+        PovertyYear: 'Data Not Available',
+        EducationYear: 'Data Not Available',
+        ElectricityYear: 'Data Not Available',
+    },
+    {
+        Name: 'Taiwan',
+        Water: 'Data Not Available',
+        Food: 'Data Not Available',
+        Poverty: 'Data Not Available',
+        Education: 'Data Not Available',
+        Electricity: 'Data Not Available',
+        WaterYear: 'Data Not Available',
+        FoodYear: 'Data Not Available',
+        PovertyYear: 'Data Not Available',
+        EducationYear: 'Data Not Available',
+        ElectricityYear: 'Data Not Available',
+    },
+    {
+        Name: 'Palestine',
+        Water: 'Data Not Available',
+        Food: 'Data Not Available',
+        Poverty: 'Data Not Available',
+        Education: 'Data Not Available',
+        Electricity: 'Data Not Available',
+        WaterYear: 'Data Not Available',
+        FoodYear: 'Data Not Available',
+        PovertyYear: 'Data Not Available',
+        EducationYear: 'Data Not Available',
+        ElectricityYear: 'Data Not Available',
+    },
+    {
         Name: 'Antigua and Barbuda',
         Water: 'Data Not Available',
         Food: '7.1',
@@ -379,7 +431,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'Brunei Darussalam',
+        Name: 'Brunei',
         Water: 'Data Not Available',
         Food: 'Data Not Available',
         Poverty: 'Data Not Available',
@@ -587,7 +639,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'Democratic Republic of the Congo',
+        Name: 'Dem. Rep. Congo',
         Water: '18.98772879',
         Food: '39.2',
         Poverty: 'Data Not Available',
@@ -600,7 +652,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'Republic of the Congo',
+        Name: 'Congo',
         Water: '45.89689647',
         Food: '55.5',
         Poverty: 'Data Not Available',
@@ -834,7 +886,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'Eswatini',
+        Name: 'eSwatini',
         Water: 'Data Not Available',
         Food: '18.3',
         Poverty: 'Data Not Available',
@@ -938,7 +990,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'The Gambia',
+        Name: 'Gambia',
         Water: '44.71526912',
         Food: '27.1',
         Poverty: 'Data Not Available',
@@ -1068,7 +1120,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'Guinea',
+        Name: 'Eq. Guinea',
         Water: 'Data Not Available',
         Food: '48.9',
         Poverty: 'Data Not Available',
@@ -1861,7 +1913,7 @@ const formattedData = [
         ElectricityYear: '2020'
     },
     {
-        Name: 'North Macedonia',
+        Name: 'Macedonia',
         Water: '76.83340587',
         Food: '6',
         Poverty: '39.9',

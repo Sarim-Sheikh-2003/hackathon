@@ -19,9 +19,12 @@
     font-size: 20x;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
+    background-color: aliceblue;
 }
 .resource-container {
     margin:auto;
+    padding-left: 30px;
+    padding-right: 30px;
     display:flex;
     align-items:center;
     width:75%;
@@ -30,18 +33,16 @@
     background-color: aliceblue;
 }
 
-.resource-subtitle{
-    margin-right:15px;
-}
-
 .selected-category {
     font-family: 'Rubik', sans-serif;
+    background-color: aliceblue;
 }
 
-.allresources {
+.all-resources {
     text-align: center;
     margin: 0px;
     text-align: center;
-    font-size: 15x;
+    font-size: 10x;
     font-family: 'Rubik', sans-serif;
+    background-color: aliceblue;
 }
