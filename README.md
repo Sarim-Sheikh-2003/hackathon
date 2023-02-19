@@ -2,6 +2,7 @@ Data available online about resource access and poverty rates for countries arou
 
 This is a React application that solves the above problem by creating a user-friendly interactive website that displays the data through interactive maps and comparison charts.
 
+View the application at: https://hackathon-1-ten.vercel.app/
 
 
 Made for CalgaryHacks 2023 Hackathon by Umesh Oad, Umar Ahmed, Saksham Puri, Sarim Sheikh, Haziq Khawaja
