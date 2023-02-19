@@ -1,0 +1,33 @@
+.header-container {
+    margin: 0px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    
+}
+
+.title {
+    margin: 0px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background: #2ECFBF;
+    background: repeating-radial-gradient(circle farthest-corner at center center, #2ECFBF 25%, #AECF55 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+  
+.description {
+    background-color: #e6ffff;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}

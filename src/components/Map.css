@@ -1,0 +1,9 @@
+.map-container {
+    border:1px solid grey;
+    position:relative;
+}
+
+.tooltip{
+    position:absolute;
+    top:15;
+}

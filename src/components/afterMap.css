@@ -1,0 +1,28 @@
+
+
+.filter-title{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.filter-container {
+    text-align: center;
+}
+
+.filter-button{
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #4169e1;
+    font-family: 'Rubik', sans-serif;
+    background-color: #e7feff;
+    transition-duration: 0.4s;
+}
+.filter-button:hover {
+    background-color: #4169e1;
+    color: white;
+}
+
+.selected-category {
+    font-family: 'Rubik', sans-serif;
+}
