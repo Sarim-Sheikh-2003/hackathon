@@ -1,3 +1,14 @@
+.recources {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: aliceblue;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding: 100px;
+}
+
 .resource-title{
     margin: 0px;
     text-align: center;
@@ -13,6 +24,7 @@
     padding-top: 30px;
     padding-bottom: 20px;
 }
+
 .resource-subtitle{
     text-align: center;
     margin: 0px;
@@ -72,11 +84,12 @@
     height: 50px;
     border-top: 1px solid rgb(206, 216, 226);
     background-color: aliceblue;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Rubik', sans-serif;
+    color: gray;
 }
 
-.footer-link{
+.link{
     cursor:pointer;
     font-size: 20px;
     font-family: 'Rubik', sans-serif;

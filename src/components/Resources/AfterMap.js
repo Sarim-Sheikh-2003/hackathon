@@ -8,12 +8,15 @@ export default function AfterMap() {
 
   return (
     <>
-      <div className='footer'>
+      <div className='recources'> 
         <p>
           After reviewing the information presented, if you are interested in extending assistance to these countries in need, click
-          <a className='footer-link' onClick={() => setIsOpen(true)}> here.</a>
+          <a className='link' onClick={() => setIsOpen(true)}> here.</a>
           <ResourcesModal isOpen={isOpen} handleClose={() => setIsOpen(false)}/>
         </p>
+      </div>
+      <div className='footer'>
+        Developed by:  Haziq Khawaja, Saksham Puri, Sarim Sheikh, Umar Ahmed, Umesh Oad
       </div>
     </>
   )
